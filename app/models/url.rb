@@ -1,6 +1,5 @@
 class Url < ApplicationRecord
-  def self.short(original_url = "a")
-
-    short_url = "bbbbb"
+  def self.short
+    (('a'..'z').to_a + ('A'..'Z').to_a + (0..9).to_a).sample(6).join
   end
 end
