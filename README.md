@@ -6,4 +6,4 @@
 
 - O code é um código único, a mesma url enviada várias vezes gera códigos diferentes
 
-- O code tem o tamanho de até 6 caracteres
+- O code tem o tamanho de 6 caracteres
