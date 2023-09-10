@@ -1,24 +1,9 @@
-# README
+# Um encurtador de URL
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Criar um servidor http que contenha dois endpoints:
+- POST / - recebe uma url e retorna um código único
+- GET /:code - utiliza o code para redirecionar para a url original
 
-Things you may want to cover:
+- O code é um código único, a mesma url enviada várias vezes gera códigos diferentes
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- O code tem o tamanho de até 6 caracteres
